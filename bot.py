@@ -26,7 +26,7 @@ bot = Client('pdisk bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm Pdisk link converter bot. Just send me link and get converted link of pdisk.\n\n Created By @---------")
+        "I'm kofilink converter bot. Just send me any old pdisk link and get it as Kofilink of pdisk.\n\n Created By @Tamil_Latest_movies_2021_2022")
 
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
