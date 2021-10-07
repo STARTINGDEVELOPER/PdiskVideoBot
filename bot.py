@@ -26,7 +26,7 @@ bot = Client('pdisk bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm kofilink converter bot. Just send me any old pdisk link and get it as Kofilink of pdisk.\n\n Created By @Tamil_Latest_movies_2021_2022")
+        "I'm kofilink converter bot. Just send me any old pdisk link and get it as Kofilink of pdisk.\n\n Join Our Channel @Tamil_Latest_movies_2021_2022")
 
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
@@ -146,9 +146,9 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ━━━━━━━━━━━━━━━
-⚙️ How to Download / Watch Online or Change Audio : https://bit.ly/pdisk_tuts
+❓ How to Download or Watch Online or Change Audio ⇨ @PdiskTutorials
 ━━━━━━━━━━━━━━━
-⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
+🎉 Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ⇝ t.me/""" + CHANNEL
     return str + footer
 
 bot.run()
