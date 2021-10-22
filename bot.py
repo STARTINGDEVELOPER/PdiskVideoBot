@@ -145,10 +145,8 @@ async def remove_username(new_List):
 
 async def addFooter(str):
     footer = """
-━━━━━━━━━━━━━━━
-❓ How to Download or Watch Online or Change Audio ⇨ @PdiskTutorials
-━━━━━━━━━━━━━━━
-🎉 Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ⇝ t.me/""" + CHANNEL
+
+📤 Uᴘʟᴏᴀᴅᴇᴅ Bʏ ⇝ @""" + CHANNEL
     return str + footer
 
 bot.run()
